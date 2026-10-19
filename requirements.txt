@@ -1,0 +1,8 @@
+numpy
+pyyaml
+rank-bm25
+pymupdf>=1.23
+sentence-transformers>=3.0
+anthropic>=0.40
+gradio>=4.0
+pytest

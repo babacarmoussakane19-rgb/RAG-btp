@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+data/index/*
+!data/index/.gitkeep
+# Corpus public téléchargé : à ne pas versionner (poids, droits)
+data/raw/reglementation/*
+!data/raw/reglementation/README.md
+data/raw/public/
+eval/results/*
+!eval/results/.gitkeep
