@@ -26,16 +26,6 @@ flowchart LR
   R --> K[Reranker optionnel]
   K --> G[Claude : réponse citée]
   G --> O[Réponse + sources / refus]
-
-
-
-
-rag-btp build                                   # parse, découpe, vectorise, indexe data/raw
-rag-btp ask "Sous quel délai le DOE doit-il être remis ?"
-rag-btp ask "Vitesse maximale des véhicules ?" --statut en_vigueur
-rag-btp ask "..." --no-llm                      # passages retrouvés seulement, sans appel API
-rag-btp eval --modes bm25,dense,hybrid          # évaluation
-rag-btp app                                     # interface Gradio
 ```
 
 
